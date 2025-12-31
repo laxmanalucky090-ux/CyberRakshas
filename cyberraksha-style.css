@@ -1,0 +1,127 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: Arial, sans-serif;
+  background: #fde3fe;
+  text-align: center;
+}
+
+/* ===== HEADER (COMMON FOR ALL PAGES) ===== */
+header.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5a189a;   /* purple */
+  padding: 12px 20px;
+}
+
+/* LEFT SIDE (LOGO + NAME) */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-left img.logo {
+  height: 45px;
+}
+
+.nav-left h2,
+.nav-left .brand {
+  color: white;                /* ✅ WHITE TITLE */
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* NAV LINKS */
+header.navbar nav a,
+.nav-links a {
+  color: white !important;     /* ✅ WHITE LINKS */
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+header.navbar nav a:hover,
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #ffd6ff;
+}
+
+/* ===== HOME PAGE ONLY (BIG HEADER) ===== */
+.home-header {
+  padding: 30px 20px;
+}
+
+.home-header img.logo {
+  height: 65px;
+}
+
+.home-header h2,
+.home-header .brand {
+  font-size: 32px;
+}
+
+/* ===== CENTER CONTENT ===== */
+.center {
+  margin-top: 40px;
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+  margin-top: 30px;
+  color: #5a189a;
+}
+
+.description {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* ===== INPUT / BOX ===== */
+.box,
+input,
+textarea {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  display: block;
+}
+
+/* ===== BUTTON ===== */
+button {
+  padding: 10px 20px;
+  background: #6a1b9a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* ===== SOS BUTTON ===== */
+.sos {
+  background: red;
+  font-size: 22px;
+  padding: 15px 30px;
+  margin-top: 20px;
+}
+
+/* ===== LIST ===== */
+ul {
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+}
+.nav-left h2,
+.nav-left .brand {
+  text-transform: uppercase;
+}

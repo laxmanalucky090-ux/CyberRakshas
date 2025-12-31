@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Cyber Raksha</title>
+  <link rel="stylesheet" href="cyberraksha-style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-left">
+    <img src="cyberraksha-logo.jpeg" class="logo" />
+    <h2>Cyber Raksha</h2>
+  </div>
+   <nav>
+      <a href="index.html">Home</a>
+      <a href="digital-awareness.html">Awareness</a>
+      <a href="women-care.html">Care</a>
+      <a href="community-support.html">Community</a>
+      <a href="emergency-sos.html">Emergency</a>
+      <a href="scam-checker.html">Scam Check</a>
+    </nav>
+</header>
+
+<h1>Welcome to Cyber Raksha</h1>
+
+
+<div class="box">
+  <input type="email" placeholder="Enter Email" id="email">
+  <button onclick="sendOTP()">Send OTP</button>
+
+  <input type="text" placeholder="Enter OTP" id="otp">
+  <button onclick="verifyOTP()">Verify & Login</button>
+</div>
+
+<!-- 🔥 ADD THESE 2 LINES ONLY -->
+<script type="module" src="cyberraksha-firebase.js"></script>
+<script type="module" src="cyberraksha-auth.js"></script>
+
+</body>
+</html>

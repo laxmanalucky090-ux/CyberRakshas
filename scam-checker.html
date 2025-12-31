@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Scam Checker</title>
+  <link rel="stylesheet" href="cyberraksha-style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-left">
+    <img src="cyberraksha-logo.jpeg" class="logo" />
+    <h2>Cyber Raksha</h2>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="digital-awareness.html">Awareness</a>
+    <a href="women-care.html">Care</a>
+    <a href="community-support.html">Community</a>
+    <a href="emergency-sos.html">Emergency</a>
+    <a href="scam-checker.html">Scam Check</a>
+  </nav>
+</header>
+
+<h1>Scam Message Checker</h1>
+<p>Enter suspicious message below:</p>
+
+<textarea id="msg" placeholder="Paste message here"></textarea><br><br>
+<button onclick="checkScam()">Check</button>
+
+<p id="result"></p>
+
+<!-- ✅ VERY IMPORTANT -->
+<script src="cyberraksha-scam.js"></script>
+
+</body>
+</html>
